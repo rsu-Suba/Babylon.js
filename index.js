@@ -8,7 +8,7 @@ function main() {
       camera.attachControl(canvas, true);
       camera.minZ = 0.001;
       const light = new BABYLON.HemisphericLight("light", new BABYLON.Vector3(1, 1, 0), scene);
-      const model = BABYLON.SceneLoader.ImportMeshAsync("","https://github.com/rsu-Suba/Babylon.js/blob/main/Models/, "PC-Remake.glb");
+      //const model = BABYLON.SceneLoader.ImportMeshAsync("","./Models/, "PC-Remake.glb");
       const plane = BABYLON.MeshBuilder.CreateGround("ground", {width:12, height:12});
       plane.position.y = -0.1
       return scene;
