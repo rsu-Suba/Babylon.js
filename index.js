@@ -40,7 +40,7 @@ function main() {
       const light = new BABYLON.PointLight("light", new BABYLON.Vector3(-5, 0, 5), scene);
       light.intensity = 0.5;
 
-      //const model = BABYLON.SceneLoader.ImportMeshAsync("","./Models/", "PC-Remake.glb");
+      const model = BABYLON.SceneLoader.ImportMeshAsync("","./Models/", "PC-Remake.glb");
 
       const plane = BABYLON.MeshBuilder.CreatePlane(
         "ground",{
