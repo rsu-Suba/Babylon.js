@@ -21,7 +21,7 @@ function main() {
       camera.minZ = 0.0001;
       camera.fov = BABYLON.Tools.ToRadians(80);
       camera.pinchDeltaPercentage = 0.0;
-      camera.pinchPrecision = 30;
+      camera.pinchPrecision = 80;
       camera.wheelPrecision = 3.5;
       camera.angularSensibilityX = 1750;
       camera.angularSensibilityY = 1750;
